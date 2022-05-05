@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0  auto;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh; 
+ }
+
+
+h1{
+    margin-top: 10px;
+    font-size: 50px;
+    color: white;
+    margin-left: 30px;
+}
+.sp1{
+    color: rgb(62, 197, 62);
+}
+
+.box{
+    width: 1900px;
+    height: 950px;
+    border: 1px solid red;
+    margin: auto;
+    background-image: url(./photo.jpg);
+    background-size: cover;
+}
+
+.minbox{
+    width: 1200px;
+    height: 40px;
+    /* border: 1px solid red; */
+    margin-left: 400px;
+    margin-top: -50px;
+
+
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    margin-left: 80px;
+    font-size: 20px;
+    transition: 0.5s;
+    text-align: center;
+}
+
+a:hover{
+    color: red;
+}
+
+.idrok .sp2{
+    color: white;
+    font-size: 60px;
+    margin-top: -10px;
+}
+
+.great{
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 200px;
+    margin-left: 100px;
+}
+
+.idrok2{
+    color: red;
+    margin-top: -10px;
+}
+
+.sp3{
+    color: white;
+}
+
+button{
+    width: 200px;
+    height: 70px;
+    border: 3px solid red;
+    border-radius: 15px;
+    font-size: 25px;
+    background-color: rgb(253, 17, 17);
+    color: white;
+    margin-left: 18px;
+    transition: 0.5s;
+}
+
+button:hover{
+    background-color: rgba(255, 0, 0,0);
+    color:red;
+}
+
+#box1{
+    width: 1900px;
+    height: 1000px;
+    border:1px solid red;
+    background-image: url(./istockphoto-1138395421-612x612.jpg);
+    background-size: cover;
+    margin: 0 auto  ;
+}
+
+#box1 h1 {
+    color: black;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    color: red;
+}
+
+.min{
+    position: fixed;
+    background: none;
+    margin:auto;
+    margin-top: -200px;
+    margin-left: 150px;
+    color: red;
+}
+
+#kurslarimiz{
+    width: 1900px;
+    height: 800px;
+    border:1px solid red;
+    display: block;
+    margin-top: 100px;
+    background-image: url(./istockphoto-1150477705-612x612.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+.api1{
+    width: 400px;
+    height: 500px;
+    border: 1px solid red;
+    margin-left: 100px;
+    border-radius: 20px;
+    background-color: rgb(27, 26, 26);
+    transition: 0.3s;
+}
+.api2{
+    width: 400px;
+    height: 500px;
+    border: 1px solid red;
+    margin-left: 100px;
+    border-radius: 20px;
+    background-color: rgb(27, 26, 26);
+    transition: 0.3s;
+}
+.api3{
+    width: 400px;
+    height: 500px;
+    border: 1px solid red;
+    margin-left: 100px;
+    border-radius: 20px;
+    background-color: rgb(27, 26, 26);
+    transition: 0.3s;
+}
+.api4{
+    width: 400px;
+    height: 500px;
+    border: 1px solid red;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 20px;
+    background-color: rgb(27, 26, 26);
+    transition: 0.3s;
+}
+
+
+.apino{
+   display: flex; 
+}
+
+.api1:hover{
+    transform:scale(1.1) ;
+}
+.api2:hover{
+    transform:scale(1.1) ;
+}
+.api3:hover{
+    transform:scale(1.1) ;
+}
+.api4:hover{
+    transform:scale(1.1) ;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 5px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgba(85, 87, 85, 0.733); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.411); 
+  }
+
+  #boxmax{
+      width: 1900px;
+      height: 800px;
+      border: 1px solid red;
+      background-image: url(./Без\ названия.jpg);
+      background-size: cover;
+      display:flex ;
+  }
+
+  .opi1{
+      width: 400px;
+      height: 500px;
+      border: 1px solid red;
+      margin-left: 250px;
+      margin-top: 150px;
+      border-radius: 20px;
+      background-color: rgb(27, 26, 26);
+      transition: 0.3s;
+  }
+  .opi2{
+      width: 400px;
+      height: 500px;
+      border: 1px solid red;
+      margin-left: 100px;
+      margin-top: 150px;
+      border-radius: 20px;
+      background-color: rgb(27, 26, 26);
+      transition: 0.3s;
+  }
+  .opi3{
+      width: 400px;
+      height: 500px;
+      border: 1px solid red;
+      margin-left: 100px;
+      margin-top: 150px;
+      border-radius: 20px;
+      background-color: rgb(27, 26, 26);
+      transition: 0.3s;
+  }
+
+#manzilimiz{
+    width: 1900px;
+    height: 1000px;
+    /* border: 1px solid red; */
+    background-image: url(./dark-background-4.jpg);
+    display: flex;
+}
+
+.opi1:hover{
+    transform:scale(1.1) ;
+}
+.opi2:hover{
+    transform:scale(1.1) ;
+}
+.opi3:hover{
+    transform:scale(1.1) ;
+}
+
+.box1{
+    width: 900px;
+    height: 900px;
+    /* border: 1px solid red; */
+}
+.box2{
+    width: 900px;
+    height: 900px;
+    /* border: 1px solid red; */
+}
+
+form{
+ margin: 400px 300px;
+}
+
+input{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+}
+
+button{
+    cursor: pointer;
+}
+
+#aloqa{
+    width: 100%;
+    height: 1000px;
+    margin-top:100px ;
+    border: 1px solid red;
+    background-image: url(./oxirgi.jpg);
+    background-size: cover;
+}
